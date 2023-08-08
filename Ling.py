@@ -8,7 +8,7 @@ tokenizer=pickle.load(open('tokenizer.pkl','rb+'))
 from keras.models import load_model
 
 
-model=load_model(open('model.h5','rb+'))
+model=load_model('model.h5')
 
 
 def inp(name):
